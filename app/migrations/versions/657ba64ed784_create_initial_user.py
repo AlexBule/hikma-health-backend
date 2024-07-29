@@ -31,7 +31,7 @@ def upgrade():
         f"""
     INSERT INTO users (id, clinic_id, name, role, email, hashed_password, instance_url, created_at, updated_at, is_deleted)
     VALUES ('{str(uuid.uuid4())}', '{clinic_id}', 'Hikma Admin', 'super_admin', 'admin@hikmahealth.org',
-            '$2b$14$PPY9X2ZxFG93IU9CK4FUtOJW0d11zjHuODO6oJM5UNn59aXjp5h..', '{None}', '{datetime.now().isoformat()}', '{datetime.now().isoformat()}', '{False}')
+            'j1Uyj3Vx8TY9LtLZil2uAuZkFQA/4latT76ZwgdHdhw', '{None}', '{datetime.now().isoformat()}', '{datetime.now().isoformat()}', '{False}')
     """
     )
 
